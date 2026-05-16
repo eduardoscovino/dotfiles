@@ -73,3 +73,15 @@ export PYTHONBREAKPOINT=ipdb.set_traceexport BUNDLER_EDITOR="subl $@ >/dev/null 
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc'; fi
+
+export GOOGLE_APPLICATION_CREDENTIALS=~/code/eduardoscovino/secret_key/wagon-bootcamp-385919-cb37b1c2a5cd.json
+
+export PYTHONPATH="/Users/eduar/code/lewagon/04-Decision-Science/01-Project-Setup/data-context-and-setup:$PYTHONPATH"
+export PYTHONPATH="/Users/eduar/code/eduardoscovino/03-Decision-Science:$PYTHONPATH"
+eval "$(direnv hook zsh)"

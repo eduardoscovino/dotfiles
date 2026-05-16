@@ -4,20 +4,24 @@
     "A File Icon",
     "AdvancedNewFile",
     "All Autocomplete",
+    "Anaconda",
+    "AutoPEP8",
     "Babel",
+    "BracketHighlighter",
+    "Color Highlight",
     "Emmet",
     "ERB Snippets",
     "Git",
     "Latest Migration",
     "MagicPython",
     "Package Control",
-    "SCSS",
     "SublimeLinter",
-    "SublimeLinter-rubocop",
-    "BracketHighlighter",
-    "Color Highlight",
     "SublimeLinter-flake8",
-    "AutoPEP8",
-    "Anaconda"
-  ]
+    "SublimeLinter-rubocop",
+    "Sass"
+  ],
+  "bootstrapped": true,
+  "in_process_packages":
+  [
+  ],
 }
