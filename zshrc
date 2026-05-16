@@ -85,3 +85,4 @@ export GOOGLE_APPLICATION_CREDENTIALS=~/code/eduardoscovino/secret_key/wagon-boo
 export PYTHONPATH="/Users/eduar/code/lewagon/04-Decision-Science/01-Project-Setup/data-context-and-setup:$PYTHONPATH"
 export PYTHONPATH="/Users/eduar/code/eduardoscovino/03-Decision-Science:$PYTHONPATH"
 eval "$(direnv hook zsh)"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
