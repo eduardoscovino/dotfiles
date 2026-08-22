@@ -86,3 +86,4 @@ export PYTHONPATH="/Users/eduar/code/lewagon/04-Decision-Science/01-Project-Setu
 export PYTHONPATH="/Users/eduar/code/eduardoscovino/03-Decision-Science:$PYTHONPATH"
 eval "$(direnv hook zsh)"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
